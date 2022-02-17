@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="https://i.ibb.co/jHRJ4fx/favicon.png" type="image/x-icon">
+    <title>Advocacia T.</title>
+    <style>
+        .bloco{margin-top: 10px; margin-bottom: 14px;}
+        #imgs{margin-left: 6px;}
+        #tabela{margin-left:40px}
+        .topbar{position:fixed; height: 50px;z-index: 100;}
+        .topbar2{position:relative}
+        .barra{width: 24px;height: 3px;background-color:white;border-radius: 5px;margin: 6px;}
+        .bloc{margin-top: 6px;}
+        #tituloimagem{margin-top: 2%;min-width: 500px;}
+        .botao{margin-top: 20px;}
+        .formulario{min-width: 500px; margin-top: 47%;}
+        #btt1{border-radius: 20px 0px 0px 20px}
+        #btt2{border-radius: 0px 20px 20px 0px}
+        .imagem1{width: 120%}
+        .espaço{height:10px}
+        .imagens{width: 100%;}
+        .caixaformulario{height: 400px;}
+        .rodape{width: 100%;z-index: 5;}
+        .carr{height:250px; position: absolute;z-index: 0;}
+        .carrosel{width: 100%;}
+        .buttons{background:none}
+        .fillbox{max-width: 60%;}
+    </style>
+</head>
+<body>
+    <div class="topbar container-fluid bg-dark">
+        <div class="row">
+                <div class="col">
+                    <div class="bloco">
+                        <div class="col float-right">
+                            <a href="https://www.instagram.com/"><img id="imgs" src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="instagram" class="img" width="25px"></a>
+                            <a href="https://www.facebook.com/"><img id="imgs" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/800px-Facebook_logo_%28square%29.png" alt="facebook" class="img" width="25px"></a>
+                            <a href="https://www.whatsapp.com/?lang=pt_br"><img id="imgs" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1021px-WhatsApp.svg.png" alt="whatsapp" class="img" width="25px"></a>    
+                        </div>
+                    </div>
+                </div>
+                <div class="col container-fluid">
+                    <div class="col">
+                        <div class="float-right">
+                            <a href="">
+                                <div class="bloc">
+                                        <div class="menu">
+                                            <table class="table-bordered">
+                                                <tr>
+                                                    <td>
+                                                        <div class="barra"></div>
+                                                        <div class="barra"></div>
+                                                        <div class="barra"></div>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <img src="https://i.ibb.co/FzjhVGr/newfundobalan-a.png" alt="fundo imagem" id="tituloimagem" class="img-fluid">
+    <div class="espaço container-fluid">
+
+    </div>
+    <div class="carr container-fluid"> 
+        <div id="demo" class="carousel slide" data-ride="carousel">
+      
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+          </ul>
+          
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="imagens" src="https://i.ibb.co/8dPB67W/balan-aimg.png" alt="">
+                <div class="carousel-caption">
+                    <h2>Nosso atendimento</h2>
+                    <p>específico e agilizado</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="imagens" src="https://i.ibb.co/gZ7dgfS/cidadeimg.png" alt="">
+                <div class="carousel-caption">
+                    <h2>Porto Alegre</h2>
+                    <p>Localidade do escitório</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="imagens" src="https://i.ibb.co/YkCPr3j/equipeimg.png" alt="">
+                <div class="carousel-caption">
+                    <h2>Nossa equipe</h2>
+                    <p>Advogados</p>
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    
+
+    <div class="espaço container-fluid"></div>
+    <div class="formulario">
+        <div class="caixaformulario jumbotron">
+            <p class="display-4">Formulário</p>
+            <div class="row">
+                <div class="col-sm">
+                    <p>
+                        Para ter acesso aos nossos conteúdos e serviços, preencha o formulário. Fazendo isto, você concorda com o recebimento de emails feito pela companhia Advocacia T.
+                    </p>
+                </div>
+                <div class="col-sm">
+                    <form>
+                        <div class="input-group mb- input-group-sm">
+                            <div class="input-group-prepend">
+                                <p class="input-group-text">Nome</p>
+                            </div>
+                            <input type="text" class="fillbox form-control">
+                        </div>
+                        <div class="input-group mb- input-group-sm">
+                            <div class="input-group-prepend">
+                                <p class="input-group-text">E-mail</p>
+                            </div>
+                            <input type="text" class="fillbox form-control">
+                        </div>
+                        <div class="botao">
+                            <a href="conteudosite.html"><button type="button" class="btn btn-outline-dark">Cadastrar-se</button></a>
+                        </div>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="rodape container-fluid bg-dark">
+        <p class="container-fluid float-right bg-dark text-light">
+            Todos os direitos reservados para: Thalis Trisch
+        </p>
+    </div>
+</body>
+<script>
+
+</script>
+</html>
